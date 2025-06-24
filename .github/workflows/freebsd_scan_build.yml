@@ -25,7 +25,7 @@ jobs:
         submodules: recursive
     - name: clang scan build in FreeBSD VM
       id: clang-scan-build
-      uses: cross-platform-actions/action@4e93d86cd7b0c3bc2f6654d74d6ea45fbae526d3
+      uses: cross-platform-actions/action@9a4355714f90c057476048788b82147e99b7c0f0
       with:
         memory: 2048
         shell: sh
