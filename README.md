@@ -1,4 +1,9 @@
 --------------------------------------------------------------------------------
+**IMPORTANT: Intel PCM is NOT supported on Apple Silicon (ARM/M1/M2/M3) Macs.**
+--------------------------------------------------------------------------------
+
+Intel PCM is designed for Intel x86/x86_64 CPUs and uses instructions (such as `cpuid`) and hardware features that are not available on Apple Silicon. Attempting to build or run PCM on Apple Silicon will result in build errors and is not supported. For performance monitoring on Apple Silicon, use Apple's native tools such as Instruments or powermetrics.
+
 Intel&reg; Performance Counter Monitor (Intel&reg; PCM)
 --------------------------------------------------------------------------------
 
